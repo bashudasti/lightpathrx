@@ -305,7 +305,7 @@ const CheckoutInfo = () => {
                             <div className='text-center'>
                                 <button
                                     type="submit"
-                                    className="mt-4 sm:mt-2 theme-btn !min-h-0 w-full capitalize"
+                                    className="mt-4 sm:mt-2 theme-btn !min-w-0 w-full capitalize"
                                 >
                                     Save & Continue
                                 </button>
@@ -458,7 +458,7 @@ const CheckoutInfo = () => {
                             <div className='text-center'>
                                 <button
                                     type="submit"
-                                    className="mt-4 sm:mt-2 theme-btn !min-h-0 w-full capitalize"
+                                    className="mt-4 sm:mt-2 theme-btn !min-w-0 w-full capitalize"
                                 >
                                     Save & Continue
                                 </button>
