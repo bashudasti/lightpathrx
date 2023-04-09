@@ -36,7 +36,7 @@ const User = () => {
                     <Tab.Group>
                         <Tab.List className="bg-transparent text-heading lg:border-b-2 border-green overflow-x-auto sm:overflow-visible w-full rounded-none flex flex-nowrap gap-4 lg:gap-0 lg:block">
                             {data.map(({ label, value }) => (
-                                <Tab as={Fragment}>
+                                <Tab as={Fragment} key={value}>
                                     {({ selected }) => (
                                         <button
                                             className={classNames(
