@@ -13,9 +13,11 @@ const Footer = () => {
               <Image src="/images/logo-white.png" alt="logo" width="265" height="80" className='w-[235px] sm:w-auto' />
             </Link>
             <div className='space-y-6 mt-12 md:mt-16 flex flex-col items-baseline'>
-              <Link href="tel:" className='text-base text-white inline-flex gap-1.5'><PhoneIcon className='w-4' /> 1-800-250-8494</Link>
-              <Link href="mailto:" className='text-base text-white inline-flex gap-1.5'><EnvelopeIcon className='w-4' /> info@lightpathrx.com</Link>
-              <Link href="#" className='text-base text-white inline-flex gap-1.5'><MapPinIcon className='w-4' /> ABC street, XYZ City - 123234</Link>
+              <Link href="tel:18002508494" className='text-base text-white inline-flex gap-1.5'><PhoneIcon className='w-4' /> 1-800-250-8494</Link>
+              <Link href="mailto:info@lightpathrx.com" className='text-base text-white inline-flex gap-1.5'><EnvelopeIcon className='w-4' /> info@lightpathrx.com</Link>
+              <Link href="#" className='text-base text-white inline-flex items-start gap-1.5'><MapPinIcon className='w-4' /> Light Path USA LLC <br />
+                201 Sigma Drive Suite 300, <br />
+                Summerville, SC, 29486</Link>
             </div>
           </div>
           <div className='col-span-12 md:col-span-7'>
