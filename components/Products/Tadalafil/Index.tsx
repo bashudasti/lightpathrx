@@ -64,7 +64,7 @@ const Tadalafil = () => {
             <ProductBanner />
             <WhyProduct />
             <HowProductWork />
-            <Testimonial />
+            {/* <Testimonial /> */}
             <IntroductionTaking />
             <GetOnline />
             <ProductFAQ data={FAQData} />

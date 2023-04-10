@@ -10,7 +10,6 @@ import { useRouter } from 'next/router'
 const navigation = [
     { name: "Home", href: '/', current: true },
     { name: 'About Us', href: '/about-us', current: false },
-    { name: 'Blog', href: '/blog', current: false },
     { name: 'How It Works', href: '/how-it-works', current: false },
     { name: 'Contact Us', href: '/contact-us', current: false },
 ]
