@@ -64,7 +64,7 @@ const ConsentToTelehealth = () => {
                 </p>
 
                 <p className='text-sm md:text-base mt-4'>
-                    By clicking "AGREE," you acknowledge that you have reviewed and understood the terms and conditions for participating in telehealth consultations with healthcare providers through the LIGHT PATH USA LLC platform. You also agree to the following:
+                    By clicking &ldquo;AGREE,&ldquo; you acknowledge that you have reviewed and understood the terms and conditions for participating in telehealth consultations with healthcare providers through the LIGHT PATH USA LLC platform. You also agree to the following:
                 </p>
 
                 <p className='text-sm md:text-base mt-4'>
@@ -73,7 +73,7 @@ const ConsentToTelehealth = () => {
                     You acknowledge that while telehealth may have potential benefits, there is no assurance that your condition will improve and that it may worsen in some cases.<br /><br />
                     If your healthcare provider determines that your condition is not suitable for telehealth treatment, they may recommend in-person medical care or alternative treatment options.<br /><br />
                     The confidentiality and privacy protections that apply to your other healthcare services also apply to telehealth services.<br /><br />
-                    Your healthcare information may be disclosed to others in compliance with LIGHT PATH USA LLC's Privacy Policy, as well as state or territory laws or regulations.<br /><br />
+                    Your healthcare information may be disclosed to others in compliance with LIGHT PATH USA LLC&lsquo;s Privacy Policy, as well as state or territory laws or regulations.<br /><br />
                     You have access to all your health and wellness information related to telehealth services in accordance with applicable laws and regulations.<br /><br />
                     You may withdraw or withhold your consent at any moment by emailing info@lightpathrx.com with your instructions. If you do not do so, your consent will be renewed with each new telehealth consultation with your healthcare provider.<br /><br />
                     By participating in a telemedicine examination, you authorize your healthcare provider to disclose pertinent information to other individuals involved in your treatment, payment, and healthcare operations.<br /><br />
@@ -85,7 +85,7 @@ const ConsentToTelehealth = () => {
                 <p className='text-sm md:text-base mt-4'>
                     Consent for Asynchronous Telehealth Services provided by LIGHT PATH USA LLC If you decide to use the asynchronous telehealth services provided by LIGHT PATH USA LLC, it is essential to understand the following terms and conditions before giving your consent. By accepting these terms, you are allowing yourself to engage in asynchronous telehealth services.<br /><br />
                     Understanding Asynchronous Telehealth Asynchronous Telehealth is a type of telehealth service that allows patients to communicate with their healthcare provider through non-real-time methods like email or secure messaging without the need for face-to-face interactions. This method of communication allows healthcare providers to diagnose and consult with patients when real-time communication is not feasible or necessary.<br /><br />
-                    LIGHT PATH USA LLC's Approach to Asynchronous Telehealth LIGHT PATH USA LLC offers Asynchronous Telehealth services through its platform, which uses secure and encrypted technology to facilitate non-real-time communication between patients and healthcare providers. <br /><br />
+                    LIGHT PATH USA LLC&lsquo;s Approach to Asynchronous Telehealth LIGHT PATH USA LLC offers Asynchronous Telehealth services through its platform, which uses secure and encrypted technology to facilitate non-real-time communication between patients and healthcare providers. <br /><br />
                     Benefits of Asynchronous Telehealth
 
                 </p>
@@ -93,34 +93,34 @@ const ConsentToTelehealth = () => {
                 <p className='text-sm md:text-base mt-4'>
                     Asynchronous Telehealth allows patients to receive medical advice and diagnoses from healthcare providers through non-real-time communication, which can save time and reduce the need for in-person visits.<br /><br />
                     With Asynchronous Telehealth, appointments can be attended from any location as long as there is a reliable internet connection, providing patients with greater flexibility and convenience.
-                    By clicking "AGREE," you confirm that you have read, understood, and agreed to the terms and conditions of LIGHT PATH USA LLC's Asynchronous Telehealth service. In addition, you are providing your informed consent to participate in the program under the following conditions:<br /><br />
+                    By clicking &ldquo; AGREE,&ldquo; you confirm that you have read, understood, and agreed to the terms and conditions of LIGHT PATH USA LLC&lsquo;s Asynchronous Telehealth service. In addition, you are providing your informed consent to participate in the program under the following conditions:<br /><br />
                     Your healthcare provider is responsible for deciding if telehealth treatment is appropriate for your condition and may suggest alternative sources of medical care or treatment.<br /><br />
                     Telehealth services must comply with the same privacy and confidentiality rules as other healthcare services.<br /><br />
-                    Your healthcare information can be disclosed to others in accordance with the applicable laws and regulations of your state or region, as well as LIGHT PATH USA LLC's Privacy Policy.<br /><br />
+                    Your healthcare information can be disclosed to others in accordance with the applicable laws and regulations of your state or region, as well as LIGHT PATH USA LLC&lsquo;s Privacy Policy.<br /><br />
                     You are entitled to access all health and wellness information related to telehealth services in compliance with the applicable laws and regulations.<br /><br />
                     You may revoke or withhold your consent at any time by sending an email to info@lightpathrx.com. However, if you do not withdraw your consent, it will be considered renewed for each subsequent telehealth consultation with your healthcare provider.<br /><br />
                     Your healthcare provider is allowed to reveal information related to your telemedicine examination for the purposes of treatment, payment, and healthcare operations.<br /><br />
                     You also authorize your healthcare provider to share information associated with the telehealth examination with LIGHT PATH USA LLC and its subsidiaries.<br /><br />
-                    It's crucial to note that there are specific circumstances under which your healthcare information may be shared without your explicit consent, such as:
+                    It&lsquo;s crucial to note that there are specific circumstances under which your healthcare information may be shared without your explicit consent, such as:
 
                 </p>
                 <p>
                     If medical records are requested by a court order that is deemed legitimate.<br /><br />
                     In situations where there is suspicion of abuse, neglect, or domestic violence, which must be reported.<br /><br />
-                    If there is a necessity to prevent or lessen a severe threat to an individual's health or safety.
-                    Before agreeing to Asynchronous Telehealth, it's important to consider the potential risks that may arise. Some of these risks include:<br /><br />
+                    If there is a necessity to prevent or lessen a severe threat to an individual&lsquo;s health or safety.
+                    Before agreeing to Asynchronous Telehealth, it&lsquo;s important to consider the potential risks that may arise. Some of these risks include:<br /><br />
                     Technical issues, disruptions, or failures that may result in appointment delays or cancellations, requiring rescheduling with the healthcare provider.<br /><br />
                     Personal health information privacy may be breached if security protocols fail.<br /><br />
-                    Healthcare providers may be unable to fully assess a patient's condition without access to their complete medical history.<br /><br />
-                    The likelihood of negative outcomes, such as drug interactions and allergic reactions, may increase if healthcare providers do not have access to a patient's complete medical records.<br /><br />
+                    Healthcare providers may be unable to fully assess a patient&lsquo;s condition without access to their complete medical history.<br /><br />
+                    The likelihood of negative outcomes, such as drug interactions and allergic reactions, may increase if healthcare providers do not have access to a patient&lsquo;s complete medical records.<br /><br />
                     Asynchronous telehealth services are not intended for emergency situations, and personal data is not monitored at all times. In the event of a medical emergency, patients should immediately call 911.<br /><br />
-                    It's important for patients to understand that when they use telehealth services, the healthcare provider has the authority to make decisions about the care they receive, and there is no guarantee of diagnosis, treatment, or prescription. Additionally, some states may have legal restrictions on the use of Asynchronous Telehealth. If patients agree to use Asynchronous Telehealth, they are accepting the following terms:<br /><br />
+                    It&lsquo;s important for patients to understand that when they use telehealth services, the healthcare provider has the authority to make decisions about the care they receive, and there is no guarantee of diagnosis, treatment, or prescription. Additionally, some states may have legal restrictions on the use of Asynchronous Telehealth. If patients agree to use Asynchronous Telehealth, they are accepting the following terms:<br /><br />
 
                     They have thoroughly reviewed and comprehended the benefits and risks of using telehealth services on the LIGHT PATH USA LLC platform.<br /><br />
                     Asynchronous telehealth consultations are held to the same privacy standards as in-person visits.
-                    Asynchronous telehealth may involve the electronic transfer of personal health data to healthcare providers in other areas, which may include those located outside of the patient's state.<br /><br />
+                    Asynchronous telehealth may involve the electronic transfer of personal health data to healthcare providers in other areas, which may include those located outside of the patient&lsquo;s state.<br /><br />
                     While the benefits of asynchronous telehealth are expected, there are no guarantees or assurances of the outcomes.<br /><br />
-                    Any information provided by patients or healthcare providers via text messaging or other means will be included in the patient's medical record on the LIGHT PATH USA LLC platform.<br /><br />
+                    Any information provided by patients or healthcare providers via text messaging or other means will be included in the patient&lsquo;s medical record on the LIGHT PATH USA LLC platform.<br /><br />
                     Patients may revoke or withhold their consent at any time by contacting LIGHT PATH USA LLC via email.<br /><br />
                     This consent is not required for a purchase to be made.<br /><br />
                     The healthcare information of patients may be shared in accordance with the LIGHT PATH USA LLC Privacy Policy and the regulations or laws of the state or territory where they are located.<br /><br />
