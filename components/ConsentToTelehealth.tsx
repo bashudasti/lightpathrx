@@ -17,7 +17,7 @@ const ConsentToTelehealth = () => {
                 <h3 className='text-2xl font-bold mt-7 mb-3'>Telehealth Usage</h3>
                 <p className='text-sm md:text-base'>Telehealth technology allows for the delivery of healthcare services, ranging from diagnosis to treatment and follow-up care, health education, and public health administration. Telehealth serves multiple purposes, such as the electronic transmission of medical records, personal health information, images, sound, and video files between healthcare providers and patients. Additionally, it enables healthcare professionals to store and forward diagnostic images and communicate with patients through audio or video conferencing and/or data communications.</p>
 
-                <p className='text-sm md:text-base mt-4'>To safeguard the confidentiality and security of patients' health information and data, we at LIGHT PATH USA LLC Service will employ network and software security protocols across all electronic systems and technologies used to provide telehealth services. In addition, we will implement measures to prevent the corruption of protected health information and data to maintain its integrity, whether intentionally or unintentionally. Patients can be confident that their interactions with healthcare providers will remain confidential and will not be recorded. <br /><br />
+                <p className='text-sm md:text-base mt-4'>To safeguard the confidentiality and security of patients&lsquo; health information and data, we at LIGHT PATH USA LLC Service will employ network and software security protocols across all electronic systems and technologies used to provide telehealth services. In addition, we will implement measures to prevent the corruption of protected health information and data to maintain its integrity, whether intentionally or unintentionally. Patients can be confident that their interactions with healthcare providers will remain confidential and will not be recorded. <br /><br />
                     Telemedicine offers several benefits, including:
                 </p>
 
@@ -56,7 +56,7 @@ const ConsentToTelehealth = () => {
                 </p>
 
                 <p className='text-sm md:text-base mt-4'>
-                    <span className='font-bold text-xl text-heading'>Regulatory compliance:</span> Healthcare providers' treatment options may be restricted in certain jurisdictions due to regulatory requirements, especially those concerning specific prescriptions.
+                    <span className='font-bold text-xl text-heading'>Regulatory compliance:</span> Healthcare providers&lsquo; treatment options may be restricted in certain jurisdictions due to regulatory requirements, especially those concerning specific prescriptions.
                 </p>
 
                 <p className='text-sm md:text-base mt-4'>
@@ -124,7 +124,7 @@ const ConsentToTelehealth = () => {
                     Patients may revoke or withhold their consent at any time by contacting LIGHT PATH USA LLC via email.<br /><br />
                     This consent is not required for a purchase to be made.<br /><br />
                     The healthcare information of patients may be shared in accordance with the LIGHT PATH USA LLC Privacy Policy and the regulations or laws of the state or territory where they are located.<br /><br />
-                    In certain circumstances, such as reporting suspected abuse or neglect or when a valid court order is issued for medical records, patients' healthcare information may be shared.
+                    In certain circumstances, such as reporting suspected abuse or neglect or when a valid court order is issued for medical records, patients&lsquo; healthcare information may be shared.
 
                 </p>
                 <h3 className='text-2xl font-bold mt-7 mb-3'>Consent for Call/Email/Text Messaging</h3>
