@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const HowItWorks = () => {
     return (
-        <section className='pt-[90px] pb-28'>
+        <section className='pt-[90px] pb-28' id="how-it-work">
             <Wrapper>
                 <div className='grid grid-cols-1 lg:grid-cols-2'>
                     <div>

@@ -10,7 +10,7 @@ type Inputs = {
     cpassword: string
 };
 
-const Signup = () => {
+const Login = () => {
     const { register, handleSubmit, watch, formState: { errors, isValid } } = useForm<Inputs>({ mode: 'onChange' });
     const [showError, setShowError] = useState(false);
     const router = useRouter();
@@ -44,17 +44,7 @@ const Signup = () => {
                                 required: 'Password is required',
                             })} />
                         {errors.password && <p className='text-orange text-xs mt-2'>{errors.password.message}</p>}
-                        <input type='password' className='input-control' placeholder='Repeat Password'
-                            {...register("cpassword", {
-                                required: true,
-                                validate: (val: string) => {
-                                    if (watch('password') != val) {
-                                        return "Your passwords do no match";
-                                    }
-                                },
-                            })}
-                        />
-                        {errors.cpassword && <p className='text-orange text-xs mt-2'>{errors.cpassword.message}</p>}
+
                         <div className="flex items-center !mt-5 !mb-2">
                             <input
                                 id="remember-me"
@@ -66,7 +56,7 @@ const Signup = () => {
                                 Remember me
                             </label>
                         </div>
-                        <button type="submit" className='theme-btn !min-w-0 w-full !capitalize'>Sign Up</button>
+                        <button type="submit" className='theme-btn !min-w-0 w-full !capitalize'>Login</button>
                     </form>
 
                     <a href='#' className='border border-gray200 rounded-[3px] flex items-center justify-center text-base sm:text-lg text-dark gap-4 p-2.5'>
@@ -79,10 +69,10 @@ const Signup = () => {
                         Continue with Google
                     </a>
                 </div>
-                <p className='text-center mt-8 text-gray200 text-sm capitalize'>Already Have An Account? <Link href="/login" className='text-green'>Sign In</Link></p>
+                <p className='text-center mt-8 text-gray200 text-sm capitalize'>Create A New Account? <Link href="/signup" className='text-green'>Sign Up</Link></p>
             </div>
         </section>
     )
 }
 
-export default Signup
+export default Login

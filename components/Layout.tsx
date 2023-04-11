@@ -17,6 +17,7 @@ export default function Layout({ children }: { children: any }) {
                 router.asPath !== "/cart" &&
                 router.asPath !== "/signup" &&
                 router.asPath !== "/questions" &&
+                router.asPath !== "/login" &&
                 <Footer />
             }
         </>

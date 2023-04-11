@@ -10,7 +10,7 @@ import { useRouter } from 'next/router'
 const navigation = [
     { name: "Home", href: '/', current: true },
     { name: 'About Us', href: '/about-us', current: false },
-    { name: 'How It Works', href: '/how-it-works', current: false },
+    { name: 'How It Works', href: '/#how-it-work', current: false },
     { name: 'Contact Us', href: '/contact-us', current: false },
 ]
 
@@ -26,7 +26,7 @@ const Header = () => {
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                        <div className={`lg:flex ${router.asPath !== "/signup" && router.asPath !== "/questions" ? "justify-between" : "justify-center"} `}>
+                        <div className={`lg:flex ${router.asPath !== "/signup" && router.asPath !== "/questions" && router.asPath !== "/login" ? "justify-between" : "justify-center"} `}>
                             <div className="flex justify-between">
                                 <div className="flex flex-shrink-0 items-center">
                                     <Link href="/">
@@ -36,7 +36,7 @@ const Header = () => {
 
 
 
-                                {router.asPath !== "/signup" && router.asPath !== "/questions" &&
+                                {router.asPath !== "/signup" && router.asPath !== "/questions" && router.asPath !== "/login" &&
                                     <div className="flex items-center lg:hidden">
                                         {/* Mobile menu button */}
                                         <Disclosure.Button className="inline-flex items-center justify-center rounded-md">
@@ -59,7 +59,7 @@ const Header = () => {
                             </div>
 
 
-                            {router.asPath !== "/signup" && router.asPath !== "/questions" &&
+                            {router.asPath !== "/signup" && router.asPath !== "/questions" && router.asPath !== "/login" &&
                                 <div className="hidden lg:flex items-center">
                                     <div className="hidden lg:mr-6 lg:flex lg:space-x-14">
 
@@ -78,11 +78,11 @@ const Header = () => {
                                         ))}
                                     </div>
                                     <div className="flex-shrink-0 flex">
-                                        <button
-                                            type="button"
+                                        <Link
+                                            href="/login"
                                             className="relative inline-flex items-center rounded border-2 border-primary px-9 py-1.5 text-lg font-medium text-primary hover:bg-primary hover:text-white">
                                             Login
-                                        </button>
+                                        </Link>
                                         <button
                                             type="button"
                                             className="relative inline-flex items-center rounded ml-2.5 bg-primary px-2.5 py-1.5 text-white"
@@ -99,7 +99,7 @@ const Header = () => {
 
 
 
-                    {router.asPath !== "/signup" && router.asPath !== "/questions" &&
+                    {router.asPath !== "/signup" && router.asPath !== "/questions" && router.asPath !== "/login" &&
                         <Disclosure.Panel className="lg:hidden">
                             <div className="space-y-1 pb-3 pt-2">
                                 {navigation.map((item) => (
@@ -119,11 +119,11 @@ const Header = () => {
                             </div>
                             <div className="border-t border-green pb-3 pt-4">
                                 <div className="flex-shrink-0 flex lg:hidden px-4 sm:px-6">
-                                    <button
-                                        type="button"
+                                    <Link
+                                        href="/login"
                                         className="relative inline-flex items-center rounded border-2 border-primary px-6 py-1 text-lg font-medium text-primary">
                                         Login
-                                    </button>
+                                    </Link>
                                     <button
                                         type="button"
                                         className="relative inline-flex items-center rounded ml-2.5 bg-primary px-2 py-1.5 text-white"
