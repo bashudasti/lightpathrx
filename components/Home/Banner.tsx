@@ -15,7 +15,7 @@ const Banner = () => {
                         <a href='#' className='theme-btn mt-32 !hidden lg:!inline-flex'>START YOUR TREATMENT TODAY</a>
                     </div>
                     <div>
-                        <Image src="/images/products.png" alt="products" width="644" height="490" className='ml-auto mr-auto lg:mr-0' />
+                        <Image src="/images/products.png" alt="products" width="857" height="711" className='ml-auto mr-auto lg:mr-0' />
                         <div className='lg:hidden text-center'>
                             <a href='#' className='theme-btn !bg-white !text-green !text-sm !min-w-[285px] !h-11'>START YOUR TREATMENT TODAY</a>
                         </div>
