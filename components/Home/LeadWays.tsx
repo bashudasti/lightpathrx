@@ -13,7 +13,7 @@ const LeadWays = () => {
                 </div>
                 <div className='text-center overflow-x-auto'>
                     <Image src="/images/lead.png" alt="lead" width="1224" height="1081" className='hidden md:block' />
-                    <Image src="/images/lead.png" alt="lead-mobile" width="1224" height="1081" className='md:hidden w-[535px] h-[461px] sm:w-[1178px] sm:h-[1053px]' />
+                    <Image src="/images/lead.png" alt="lead-mobile" width="1224" height="1081" className='md:hidden w-[535px] h-[461px] sm:w-[1178px] sm:h-[1053px] max-w-none' />
                 </div>
             </div>
         </section>
