@@ -11,8 +11,9 @@ const LeadWays = () => {
                     <h3 className='text-3xl sm:text-5xl font-bold mb-2'><span className='text-green'>LightpathRx</span> leads the way!</h3>
                     <p className='text-sm sm:text-base'>See how Lightpath Rx compares to other healthcare options:</p>
                 </div>
-                <div className='text-center'>
-                    <Image src="/images/lead.png" alt="lead" width="1224" height="1081" />
+                <div className='text-center overflow-x-auto'>
+                    <Image src="/images/lead.png" alt="lead" width="1224" height="1081" className='hidden md:block' />
+                    <Image src="/images/lead.png" alt="lead-mobile" width="1224" height="1081" className='md:hidden w-[535px] h-[461px] sm:w-[1178px] sm:h-[1053px]' />
                 </div>
             </div>
         </section>
