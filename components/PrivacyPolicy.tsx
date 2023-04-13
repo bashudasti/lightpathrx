@@ -7,10 +7,10 @@ const PrivacyPolicy = () => {
         <section className='bg-white pt-8 pb-14'>
             <Wrapper>
                 <h1 className='font-bold text-3xl sm:text-4xl md:text-6xl mb-5'>Privacy Policy</h1>
-                <p className='text-sm md:text-base font-bold mt-4'>
+                <p className='text-sm md:text-base mt-4'>
                     Welcome to the Privacy Policy of Lightpathrx.com and its affiliates (“Light Path USA LLC,” “we,” “our,” or “us”). This Privacy Policy outlines how we collect, use, maintain, protect, and disclose information that you may provide or that we may collect from you when you visit our Website or use our affiliated mobile applications (the “Apps”), or otherwise provide data to Light Path USA LLC. We collectively refer to our Website, Apps, and other services as the “Services” in this Privacy Policy, and this policy is incorporated into our Terms of Use. Please note that capitalized terms not defined herein have the meanings assigned to them in the Terms of Use. If you are a California resident, please refer to our Privacy Information for California Residents for additional information. This policy does not apply to information collected by the physician or healthcare provider that we contract with, or any third party, including through any application or content (including advertising) that may link to or be accessible from or on our Website.
                 </p>
-                <p className='text-sm md:text-base font-bold mt-4'>We urge you to carefully review this Privacy Policy to understand our policies and practices regarding your information and how we handle it. If you do not agree to this Privacy Policy, please refrain from using our Services.</p>
+                <p className='text-sm md:text-base mt-4'>We urge you to carefully review this Privacy Policy to understand our policies and practices regarding your information and how we handle it. If you do not agree to this Privacy Policy, please refrain from using our Services.</p>
 
                 <h3 className='text-2xl font-bold mt-7 mb-3'>INFORMATION WE COLLECT AND HOW WE OBTAIN IT</h3>
                 <p className='text-sm md:text-base'>We collect information about you through various means as explained below when you use our Services. Please note that certain types of information are required for us to offer our Services safely and effectively. If you do not provide such information or request its deletion, you may lose access to part or all of our Services.</p>
