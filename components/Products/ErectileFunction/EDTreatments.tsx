@@ -31,9 +31,9 @@ const EDTreatments = () => {
                     </div>
                 </div>
 
-                <div className='rounded-3xl bg-heading py-8 sm:py-14 px-8 sm:px-[120px] relative -bottom-52'>
-                    <h4 className='text-white text-lg sm:text-[28px] leading-tight font-bold max-w-[600px]'>Get evaluated in the convenience of your home and get your prescribed medication at a low price.</h4>
-                    <ul className='my-6 space-y-3'>
+                <div className='rounded-3xl bg-heading py-8 sm:py-14 px-8 sm:px-[120px] relative -bottom-52 sm:after:bg-[url("/images/cat-work.png")] sm:after:w-[298px] sm:after:h-[326px] sm:after:absolute sm:after:bottom-3 sm:after:right-[16%] sm:after:z-0 sm:after:bg-no-repeat'>
+                    <h4 className='text-white text-lg sm:text-[28px] leading-tight font-bold max-w-[600px] z-10 relative'>Get evaluated in the convenience of your home and get your prescribed medication at a low price.</h4>
+                    <ul className='my-6 space-y-3 z-10 relative'>
                         <li className='text-sm sm:text-base text-white flex gap-4 items-center'>
                             <span className='bg-green w-5 h-5 rounded-full text-heading text-[11px] leading-none flex items-center justify-center'>1</span>
                             Answer some questions
@@ -47,9 +47,9 @@ const EDTreatments = () => {
                             Get ED pills delivered, if prescribed
                         </li>
                     </ul>
-                    <Link href="#" className='bg-primary text-white rounded-[3px] text-sm sm:text-lg text-center py-4 px-[39px] inline-block'>Start Here</Link>
+                    <Link href="#" className='bg-primary text-white rounded-[3px] text-sm sm:text-lg text-center py-4 px-[39px] inline-block z-10 relative'>Start Here</Link>
 
-                    <Image src="/images/treatment-bottles.png" alt="" width="826" height="704" className='xl:absolute -right-[205px] -bottom-[185px] bottlesRigh -mb-28 sm:-mb-[240px] xl:mb-0' />
+                    <Image src="/images/treatment-bottles.png" alt="" width="726" height="704" className='xl:absolute -right-[80px] -bottom-[107px] bottlesRigh -mb-28 sm:-mb-[240px] xl:mb-0 sm:max-w-[560px] z-10' />
                 </div>
             </Wrapper>
         </section>

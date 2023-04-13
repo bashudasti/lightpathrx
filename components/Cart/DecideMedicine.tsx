@@ -27,8 +27,8 @@ const DecideMedicine = ({ nextStep, register, errors }: any) => {
                                     <label htmlFor='generic-viagra' className='bg-gray100 text-dark rounded-3xl border-2 border-transparent p-4 cursor-pointer inline-block w-full peer-checked:border-green peer-checked:bg-[#EAF4EF] peer-checked:text-green'>
                                         <p className='capitalize text‑inherit leading-none'>Generic Viagra</p>
                                         <span className='text-gray200 text-[13px]'>$34 per dose</span>
-                                        <div className='mt-9'>
-                                            <Image src="/images/generic-viagra.png" className='mx-auto' alt="product" width="209" height="208" />
+                                        <div className='mt-0'>
+                                            <Image src="/images/generic-viagra.png" className='mx-auto' alt="product" width="396" height="476" />
                                         </div>
                                     </label>
                                     <CheckCircleIcon className='w-4 absolute top-4 right-4 text-green  hidden peer-checked:block' />
@@ -44,8 +44,8 @@ const DecideMedicine = ({ nextStep, register, errors }: any) => {
                                     <label htmlFor='generic-cialis' className='bg-gray100 text-dark rounded-3xl border-2 border-transparent p-4 cursor-pointer inline-block w-full peer-checked:border-green peer-checked:bg-[#EAF4EF] peer-checked:text-green'>
                                         <p className='capitalize text‑inherit leading-none'>Generic Cialis</p>
                                         <span className='text-gray200 text-[13px]'>$2.9 per dose</span>
-                                        <div className='mt-9'>
-                                            <Image src="/images/generic-cialis.png" className='mx-auto' alt="product" width="209" height="208" />
+                                        <div className='mt-0'>
+                                            <Image src="/images/Cialis.png" className='mx-auto' alt="product" width="396" height="476" />
                                         </div>
                                     </label>
                                     <CheckCircleIcon className='w-4 text-green absolute top-4 right-4 hidden peer-checked:block' />

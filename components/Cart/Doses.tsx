@@ -63,7 +63,8 @@ const Doses = ({ prevStep, register, errors }: any) => {
                             </div>
                             <div className='rounded-lg border-2 border-[#8f8f8f40] px-4 md:px-14 py-4 text-center my-5'>
                                 <h2 className='text-2xl font-bold'>Your Price</h2>
-                                <Image src="/images/doses.png" alt="product" width="228" height="176" className='mx-auto' />
+                                <Image src="/images/doses.png" alt="product" width="296" height="354" className='mx-auto' />
+
                                 <p className='text-base text-heading font-bold'>You chose Generic Viagra at “Beginner” level 8 does a moonth</p>
                                 <span className='inline-block bg-green rounded-xl text-white text-3xl px-7 py-1 mt-2.5 mb-4 font-bold'><sup>$</sup>79.95</span>
                                 <p className='text-sm text-gray200'>A physician will determine if this dosage is right for you, recommended a more appropriate dosage.</p>

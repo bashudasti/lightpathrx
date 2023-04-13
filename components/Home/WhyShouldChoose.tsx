@@ -10,8 +10,8 @@ const WhyShouldChoose = () => {
                     <div className='order-2 lg:order-1'>
                         <div className='relative max-w-[450px] ml-auto mr-auto lg:mr-0 lg:ml-0 '>
                             <Image src="/images/process.png" alt="process" width="450" height="477" />
-                            <div className='absolute bottom-[-54px] -right-8 sm:-right-[85px]'>
-                                <Image src="/images/should-choose.png" className='w-64 sm:w-auto' alt="choose" width="370" height="352" />
+                            <div className='absolute bottom-[-54px] -right-8 sm:-right-[55px]'>
+                                <Image src="/images/should-choose.png" className='w-64 sm:w-auto max-w-xs' alt="choose" width="370" height="352" />
                             </div>
                         </div>
                         <ul className='space-y-3 lg:hidden mt-12'>

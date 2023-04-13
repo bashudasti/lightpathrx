@@ -70,8 +70,8 @@ const ProductBanner = () => {
             <Wrapper>
                 <div className='grid grid-cols-1 lg:grid-cols-12 gap-11 lg:gap-[74px]'>
                     <div className='lg:col-span-7'>
-                        <div className='bg-gray300 rounded-b-3xl lg:rounded-r-3xl relative lg:before:bg-gray300 lg:before:absolute lg:before:w-2/4 lg:before:h-full lg:before:-left-2/4 lg:before:top-0 pl-10 sm:px-20 md:px-0 pt-14 sm:pt-28 lg:pt-32'>
-                            <Image src="/images/tadalafil.png" alt="Product" width="601" height="586" className='relative z-10 mx-auto lg:ml-0 lg:mr-auto' />
+                        <div className='bg-gray300 rounded-b-3xl lg:rounded-r-3xl relative lg:before:bg-gray300 lg:before:absolute lg:before:w-[60%] lg:before:h-full lg:before:-left-2/4 lg:before:top-0 pl-10 sm:px-20 md:px-0 py-14 sm:py-7'>
+                            <Image src="/images/tadalafil.png" alt="Product" width="601" height="586" className='relative z-10 mx-auto lg:ml-0 lg:mr-auto lg:max-w-lg' />
                         </div>
                     </div>
                     <div className='lg:col-span-5 xl:pl-14'>
